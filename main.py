@@ -242,8 +242,8 @@ def create_webhook(conn, game_id, success, vpremium, visit, failed, vnbc, unnbc,
 
 async def config(interaction: discord.Interaction, game_id: str, visit: str, unnbc: str, unpremium: str, vnbc: str, vpremium: str, success: str, failed: str):
 
-    role_name = os.getenv('CUSTUMER_ROLE_NAME')
-    guild_id = int(os.getenv("GUILD_ID"))
+    role_name = os.getenv('1193452263197392977')
+    guild_id = int(os.getenv("1193410216151236749"))
     guild = interaction.guild
 
     if guild is None:
@@ -327,7 +327,7 @@ async def slash_purchase(interaction: discord.Interaction, userid: str):
     
     discord_id = interaction.user.id
 
-    gamepass_id = os.getenv('GAMEPASS_ID')
+    gamepass_id = os.getenv('15239359874')
     api_url = f'https://inventory.roblox.com/v1/users/{userid}/items/Asset/{gamepass_id}/is-owned'
     response = requests.get(api_url)
 
@@ -385,8 +385,8 @@ async def slash_purchase(interaction: discord.Interaction, userid: str):
 
 async def slash_publish_new_game(interaction: discord.Interaction, theme: discord.app_commands.Choice[str], cookie: str, gamename: str = None, description: str = None):
 
-  role_name = os.getenv('CUSTUMER_ROLE_NAME')
-  guild_id = int(os.getenv("GUILD_ID"))
+  role_name = os.getenv('Metacores Customer')
+  guild_id = int(os.getenv("1193410216151236749"))
   guild = interaction.guild
 
   if guild is None:
