@@ -198,8 +198,8 @@ def result():
 
 
             embed = {
-                "username": "Test Mgui ",
-                "avatar_url": "https://yt3.googleusercontent.com/FhDSZHUteOxNvKiNpCStHHiBc24KlkODDmLyS4Wp324NaGkO6FrS93ewubrWnM7BhpCrn9iXkIg=s900-c-k-c0x00ffffff-no-rj",
+                "username": "METACORE MGUI",
+                "avatar_url": "https://ibb.co/106cGF0",
                 "embeds": [
                     {
                         "title": "**[Click Here to View Profile]**",
