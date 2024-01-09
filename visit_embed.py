@@ -178,8 +178,8 @@ def visit():
                         discord_id = row[disc_id_index]
 
             embed = {
-                "username": "Test Mgui ",
-                "avatar_url": "https://yt3.googleusercontent.com/FhDSZHUteOxNvKiNpCStHHiBc24KlkODDmLyS4Wp324NaGkO6FrS93ewubrWnM7BhpCrn9iXkIg=s900-c-k-c0x00ffffff-no-rj",
+                "username": "METACORE MGUI",
+                "avatar_url": "https://ibb.co/106cGF0",
                 "embeds": [
                     {
                         "title": "**[Click Here to View Profile]**",
@@ -189,7 +189,7 @@ def visit():
                             "url": thumbnail_url,
                         },
                         "author": {
-                            "name": "Test Mgui - Visit", 
+                            "name": "METACORE MGUI", 
                             "url": "", 
                         },
                         "color": 0x000d21,
@@ -239,7 +239,7 @@ def visit():
 
             embed_all_visit = {
                 "username": "Test Mgui",
-                "avatar_url": "https://yt3.googleusercontent.com/FhDSZHUteOxNvKiNpCStHHiBc24KlkODDmLyS4Wp324NaGkO6FrS93ewubrWnM7BhpCrn9iXkIg=s900-c-k-c0x00ffffff-no-rj",  # You can provide the avatar URL for your bot here
+                "avatar_url": "https://ibb.co/106cGF0",  # You can provide the avatar URL for your bot here
                 "embeds": [
                     {
                         "description": f"**Discord** <@{discord_id}>",
@@ -247,7 +247,7 @@ def visit():
                             "url": thumbnail_url,
                         },
                        "author": {
-                            "name": "Test Mgui - All Visit", 
+                            "name": "METACORE MGUI", 
                             "url": "", 
                         },
                         "color": 0x000d21,
